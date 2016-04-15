@@ -58,13 +58,14 @@ github "stdlib",      "4.7.0", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",        "1.0.0"
 github "xquartz",     "1.2.1"
 
-github "atom" 
-
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
-github "atom", "1.0.0" 
+# github "atom", "1.0.0"
 # github "elasticsearch", "2.8.0"
 # github "mysql",         "2.0.1"
 # github "postgresql",  "4.0.1"
 # github "redis",       "3.1.0"
 # github "sysctl",      "1.0.1"
+mod 'puppetlabs-rdot',
+  :git => "ssh://git@github.com:rwoolley/puppet-rdot.git",
+  :ref => "master"

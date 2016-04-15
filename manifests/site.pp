@@ -1,6 +1,7 @@
 require boxen::environment
 require homebrew
 require gcc
+require rdot
 
 Exec {
   group       => 'staff',
