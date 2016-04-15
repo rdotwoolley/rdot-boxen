@@ -67,5 +67,5 @@ github "xquartz",     "1.2.1"
 # github "redis",       "3.1.0"
 # github "sysctl",      "1.0.1"
 mod 'puppetlabs-rdot',
-  :git => "ssh://git@github.com:rwoolley/puppet-rdot.git",
+  :git => "git@github.com:rwoolley/puppet-rdot.git",
   :ref => "master"
